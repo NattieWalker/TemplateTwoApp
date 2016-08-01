@@ -4,7 +4,7 @@
 	<title>Template for Application</title>
 	<link rel="stylesheet" href="CSS/Reset.css">
 <link rel="stylesheet" type="text/css" href="CSS/main.css" />
-<link href='https://fonts.googleapis.com/css?family=Roboto+Mono:500,700,700italic,500italic' rel='stylesheet' type='text/css'> name
+<link href='https://fonts.googleapis.com/css?family=Roboto+Mono:500,700,700italic,500italic' rel='stylesheet' type='text/css'>
 </head>
 <body>
 <div id="main">
@@ -12,14 +12,26 @@
  <nav> 
      <button class = "back-btn" onclick="goBack()">Go Back</button>
      <div class ="search-tools">
-    <form method="get" action="javascript:void(0)" onsubmit="search(this); return false;" id="search">
-  <input name="q" type="text" size="40" placeholder="Search..." />
-  <input type=submit value="Search" class= "back-btn">
-</form>
 
-<form method=get action="javascript:void(0)" onsubmit="search(this); return false;">
-<tr><td><input type=text name=srchval value=""><input type=submit value="Search"></td></tr>
+
+   <form id="filter_form">
+    <p>Search:</p>
+    <input id="filter" name="filter" type="text" size="40" onkeyup="filter_pictures();"></input>
+    </form>
+
+
+
+
+
+   <!-- <form method="get" action="javascript:void(0)" onsubmit="search(this); return false;" id="search">
+  <input name="#" type="text" size="40" placeholder="Search..." />
 </form>
+//code above was original search form
+
+
+ <form method=get action="javascript:void(0)" onsubmit="search(this); return false;">
+<tr><td><input type=text name=srchval value=""><input type=submit value="Search"></td></tr>
+</form> -->
 </div>
    </nav>
    </header>
@@ -63,67 +75,65 @@
 <section>
 <div id ="folders">
     <div class = "folder-col">
-    <a href = "#" class = "folder-icon"><img src ="images/word-thumb.png"></a>
+    <a href = "#" class = "folder-icon"><img class = "filtered" src ="images/word-thumb.png"></a>
             <span class="caption">
                 <p>File Name.docx</p>
             </span>
-     <a href = "#"  class= "folder-icon"><img src ="images/word-thumb.png"></a>
+     <a href = "#"  class= "folder-icon"><img class = "filtered" src ="images/word-thumb.png"></a>
             <span class="caption">
                 <p>File Name.docx</p>
             </span>
-     <a href = "#" class= "folder-icon"><img src ="images/pdf-thumb.jpg"></a>
+     <a href = "#" class= "folder-icon"><img class = "filtered" src ="images/pdf-thumb.jpg"></a>
              <span class="caption">
                 <p>File Name.pdf</p>
             </span>
-     <a href = "#" class= "folder-icon"><img src ="images/folder-icon.png"></a>
+     <a href = "#" class= "folder-icon"><img class = "filtered" src ="images/folder-icon.png"></a>
              <span class="caption">
                 <p>Folder Name</p>
             </span>
     </a>
     </div>
-    <div class = "folder-col"></a>
-    <a href = "#" class = "folder-icon"><img src ="images/pdf-thumb.jpg""></a>
+    <div class = "folder-col" id = "id_search_list"></a>
+    <a href = "#" class = "folder-icon"><img class = "filtered" src ="images/pdf-thumb.jpg""></a>
             <span class="caption">
                 <p>File Name.pdf</p>
             </span>
-    <a href = "#" class= "folder-icon"><img src ="images/folder-icon.png"></a>
+    <a href = "#" class= "folder-icon"><img class = "filtered" src ="images/folder-icon.png"></a>
             <span class="caption">
                 <p>Folder Name</p>
             </span>
-    <a href = "#" class= "folder-icon"><img src ="images/excel-thumb.png"></a>
+    <a href = "#" class= "folder-icon"><img class = "filtered" src ="images/excel-thumb.png"></a>
              <span class="caption">
                 <p>File Name.xls</p>
             </span>
-     <a href = "#" class= "folder-icon"><img src ="images/folder-icon.png"></a>
+     <a href = "#" class= "folder-icon"><img class = "filtered" src ="images/folder-icon.png"></a>
              <span class="caption">
                 <p>Folder Name</p>
             </span>
     </div>
     <div class = "folder-col"></a>
-    <a href = "#" class = "folder-icon"><img src ="images/folder-icon.png"></a>
+    <a href = "#" class = "folder-icon"><img class = "filtered" src ="images/folder-icon.png"></a>
             <span class="caption">
                 <p>Folder Name</p>
             </span>
-    <a href = "#" class= "folder-icon"><img src ="images/word-thumb.png"></a>
+    <a href = "#" class= "folder-icon"><img class = "filtered" src ="images/word-thumb.png"></a>
             <span class="caption">
                 <p>File Name.doc</p>
             </span>
-     <a href = "#" class= "folder-icon"><img src ="images/excel-thumb.png"></a>
+     <a href = "#" class= "folder-icon"><img class = "filtered" src ="images/excel-thumb.png"></a>
             <span class="caption">
                 <p>File Name.xls</p>
             </span>
-     <a href = "#" class= "folder-icon"><img src ="images/word-thumb.png"></a>
+     <a href = "#" class= "folder-icon"><img class = "filtered" src ="images/word-thumb.png"></a>
             <span class="caption">
                 <p>File Name.doc</p>
     
 </div>
-<h3> Test for Commit</h3>
 </section>
 <footer>
     Property of <span> <a href ="http://www.rrcarch.com">Ruhnau Ruhnau Clarke</a></span> &copy; 2016
 </footer>
 </div>
-<script src="../Javascript/Main.js"></script>
-<script src="../Javascript/Search.js"></script>
-</body>
+<script src="Javascript/Main.js"></script>
+<script src="Javascript/Search.js"></script>
 </html>
