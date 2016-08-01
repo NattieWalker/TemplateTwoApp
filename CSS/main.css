@@ -1,0 +1,179 @@
+/* Whole Body Styles */
+#main {
+	margin: auto;
+	width: 90%;
+    font-family: Roboto Mono, Arial, Verdana, Helvetica,sans-serif;
+    border: 1px solid black;
+    background-color: #414141;
+}
+/*Navigation sytles (All Navs)*/
+
+nav {
+	margin: auto;
+	text-align:center;
+    background-color:#414141;
+    padding: 10px;
+    } 
+
+.back-btn {
+    float:right;
+    color: #919191;
+    background-color: #444;
+    border: 1px solid #919191;
+    border-radius: 10px;
+    padding: 5px;
+    margin: 10px;
+}
+/*h1... Styles (All Headers)*/
+h1 {
+	text-align: center;
+	padding: 10px;
+    color: #FFF;
+    font-family: Roboto Mono, Arial, Verdana, Helvetica,sans-serif;
+    font-size: 1.5em;
+}
+h2 {
+	text-align: center;
+	padding: 10px;
+    color: #979797;
+    font-family: Roboto Mono, Arial, Verdana, Helvetica,sans-serif;
+    font-size: 1.5em;
+}
+/*Search Bar */
+
+#search input[type="text"] {
+    background: url(search-dark.png) no-repeat 10px 6px #444;
+    border: 1px solid #919191;
+    float: right;
+    margin: 10px;
+    font: bold 12px Roboto Mono, Arial,Helvetica,Sans-serif;
+    color: #919191;
+    width: 150px;
+    padding: 6px 15px 6px 35px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    text-shadow: 0 2px 2px rgba(0, 0, 0, 0.3);
+    -webkit-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.1), 0 1px 3px rgba(0, 0, 0, 0.2) inset;
+    -moz-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.1), 0 1px 3px rgba(0, 0, 0, 0.2) inset;
+    box-shadow: 0 1px 0 rgba(255, 255, 255, 0.1), 0 1px 3px rgba(0, 0, 0, 0.2) inset;
+    -webkit-transition: all 0.7s ease 0s;
+    -moz-transition: all 0.7s ease 0s;
+    -o-transition: all 0.7s ease 0s;
+    transition: all 0.7s ease 0s;
+    }
+
+#search input[type="text"]:focus {
+    width: 200px;
+    }
+
+    /*File list styles */
+/* main Div */
+#file-tree { 
+    width:20%;
+    height:700px;
+    float: left;
+    background-color: #004364;;
+    }
+
+/*div containing lists */
+.folder-list {
+    margin:auto;
+    width: 90%;
+    list-style: square inside;
+    font-size: 15px;
+    
+}
+.nested-list {
+    color: #979797;
+    text-indent: 20px;
+}
+
+.main-folder {
+    color: #FFF;
+}
+
+/*Sub List */
+ul {
+    list-style-type: disc;
+    list-style-position: inside;
+    margin:2px;
+}
+
+
+ul a {
+    text-decoration:none;
+}
+
+/* Main List */
+ol {
+    list-style-type: decimal;
+    list-style-position: inside;
+}
+
+ol a {
+    text-decoration:none;
+}
+
+
+/* Folder icon section SYstles */
+#folders {
+    width:80%;
+    height:700px;
+    float:left;
+    background-color: #FFF;
+}
+.folder-col {
+    float:left;
+    width: 30%;
+    margin: 10px;
+    height: 300px;
+}
+.folder-icon {
+    border: 1px dotted #979797;
+    display: flex;
+    flex-direction:row;
+    flex: 1;
+}
+
+/* Img = FOlder Icon Styles */ 
+img {
+    position:center;
+    height: 100px;
+    width:100px;
+    margin:auto;
+}
+
+.caption {
+    font-style: italic;
+    color:#979797;
+    text-align:center;
+    margin:3px;
+
+}
+
+/*Footer Styles */
+footer {
+    text-align:center;
+    color:#FFF;
+    background-color:#414141;
+    font-family: Roboto Mono, Arial, Verdana, Helvetica,sans-serif;  
+     font-size: 15px;
+}
+
+footer span {
+    font-style: italic;
+}
+footer a {
+    text-decoration:none;
+    color: #FFF;
+}
+
+
+/* Link styles */
+a {
+    color:#FFF;
+    font-family: Roboto Mono, Arial, Verdana, Helvetica,sans-serif;
+    text-justify:auto; 
+    line-height: 150%;
+}
