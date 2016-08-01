@@ -4,20 +4,22 @@ function filter_pictures() {
     //Get the text we use to filter
     var $filter = document.getElementById('filter').value;
 
-	//Get Image caption
-	
-
     //Get all images
     var $imgsCollection = document.getElementsByClassName('filtered');
+	
+	//Get Image caption
+	/*if($imgsCollection.childNode){
+		var $children = $imgsCollection.childNode;
+	}*/
 
     //For every image check if url has filter in it and hide/show as needed.
      for ($i = 0; $i < $imgsCollection.length; $i++) {
         if ($imgsCollection[$i].getAttribute('src').indexOf($filter) > -1) {
             $imgsCollection[$i].style.display = 'block';
-        } else {
+        	} 
+		else {
             $imgsCollection[$i].style.display = 'none';
-		
-        }
+        	}
      }
 }
 

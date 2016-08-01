@@ -46,6 +46,14 @@ h2 {
     font-family: Roboto Mono, Arial, Verdana, Helvetica,sans-serif;
     font-size: 1.5em;
 }
+
+h3 {
+    text-align:center;
+    margin: 10px;
+    font-family: Roboto Mono, Arial, Verdana, Helvetica,sans-serif;
+    color:#414141;
+    text-decoration:underline;
+}
 /*Search Bar */
 
 .search input[type="text"] {
@@ -155,6 +163,7 @@ img {
     width:100px;
     margin:auto;
 }
+
 
 .caption {
     font-style: italic;
