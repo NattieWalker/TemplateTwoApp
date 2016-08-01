@@ -32,6 +32,13 @@ h1 {
     font-family: Roboto Mono, Arial, Verdana, Helvetica,sans-serif;
     font-size: 1.5em;
 }
+
+/* File Manager Link at Top of App */
+a  {
+    text-decoration:none;
+}
+
+
 h2 {
 	text-align: center;
 	padding: 10px;
@@ -41,7 +48,7 @@ h2 {
 }
 /*Search Bar */
 
-#search input[type="text"] {
+.search input[type="text"] {
     background: url(search-dark.png) no-repeat 10px 6px #444;
     border: 1px solid #919191;
     float: right;
@@ -63,7 +70,7 @@ h2 {
     transition: all 0.7s ease 0s;
     }
 
-#search input[type="text"]:focus {
+.search input[type="text"]:focus {
     width: 200px;
     }
 
@@ -92,6 +99,11 @@ h2 {
 .main-folder {
     color: #FFF;
 }
+
+
+/* Set folder diplay */
+
+
 
 /*Sub List */
 ul {

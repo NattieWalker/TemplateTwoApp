@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Template for Application</title>
+	<link rel="stylesheet" href="CSS/Reset.css">
+<link rel="stylesheet" type="text/css" href="CSS/main.css" />
+<link rel="stylesheet" type="text/css" href="CSS/openFile.css" />
+<link href='https://fonts.googleapis.com/css?family=Roboto+Mono:500,700,700italic,500italic' rel='stylesheet' type='text/css'>
+</head>
+<body>
+<div id="main">
+   <header>
+ <nav> 
+     <button class = "back-btn" onclick="goBack()">Go Back</button>
+     <div class ="search-tools">
+
+   <form id="filter_form" class = "search">
+    <input id="filter" name="filter" type="text" size="40" onkeyup="filter_pictures();"></input>
+    </form>
+
+</div>
+   </nav>
+   </header>
+<a href= "index2.html"><h1>File Manager</h1></a>
+<div id ="file-tree">
+    <div class = "folder-list">
+    <h2>Job Number</h2>
+    <ol>
+        <li class = "main-folder"><a href = "folderList.html" alt ="first file">1-20-45</a></li>
+            <ul class= "nested-list">
+                <li><a href= "#">Test File</a></li>
+            </ul>
+            
+        <li class = "main-folder"><a href = "folderList.html" alt ="first file">1-20-45</a></li>
+            <ul class= "nested-list">
+                <li><a href= "#">Test File</a></li>
+            </ul>
+            <li class = "main-folder"><a href = "folderList.html" alt ="first file">1-20-45</a></li>
+            <ul class= "nested-list">
+                <li><a href= "#">Test File</a></li>
+            </ul>
+            <li class = "main-folder"><a href = "folderList.html" alt ="first file">1-20-45</a></li>
+            <ul class= "nested-list">
+                <li><a href= "#">Test File</a></li>
+            </ul>
+        <li class = "main-folder"><a href = "folderList.html" alt ="first file">1-20-45</a></li>
+            <ul class= "nested-list">
+                <li><a href= "#">Test File</a></li>
+            </ul>
+        <li class = "main-folder"><a href = "folderList.html" alt ="first file">1-20-45</a></li>
+            <ul class= "nested-list">
+                <li><a href= "#">Test File</a></li>
+            </ul>
+        <li class = "main-folder"><a href = "folderList.html" alt ="first file">1-20-45</a></li>
+            <ul class= "nested-list">
+                <li><a href= "#">Test File</a></li>
+            </ul>
+    </ol>
+</div>
+</div>
+<section>
+    <div id ="folders">
+
+        <img id = "word-doc" src ="images/Word-Document-Format.jpg">
+    
+    </div>
+</section>
+<footer>
+    Property of <span> <a href ="http://www.rrcarch.com">Ruhnau Ruhnau Clarke</a></span> &copy; 2016
+</footer>
+</div>
+<script src="Javascript/Main.js"></script>
+<script src="Javascript/Search.js"></script>
+</html>
