@@ -86,7 +86,7 @@ h3 {
 /* main Div */
 #file-tree { 
     width:20%;
-    height:700px;
+    height:900px;
     float: left;
     background-color: #004364;;
     }
@@ -139,15 +139,15 @@ ol a {
 /* Folder icon section SYstles */
 #folders {
     width:80%;
-    height:700px;
+    height:900px;
     float:left;
     background-color: #FFF;
 }
 .folder-col {
     float:left;
     width: 30%;
-    margin: 10px;
-    height: 300px;
+    margin: 5px;
+    height: auto;
 }
 .folder-icon {
     border: 1px dotted #979797;
@@ -159,8 +159,8 @@ ol a {
 /* Img = FOlder Icon Styles */ 
 img {
     position:center;
-    height: 100px;
-    width:100px;
+    max-width:100%; 
+    height:auto;
     margin:auto;
 }
 
