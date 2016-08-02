@@ -1,7 +1,7 @@
 /* Whole Body Styles */
 #main {
 	margin: auto;
-	width: 90%;
+	width: 100%;
     height:auto;
     font-family: Roboto Mono, Arial, Verdana, Helvetica,sans-serif;
     border: 1px solid black;
@@ -97,7 +97,7 @@ h3 {
 .folder-list {
     margin:auto;
     width: 90%;
-    height:800px;
+    height:700px;
     list-style: square inside;
     font-size: 15px;
     
@@ -144,7 +144,7 @@ ol a {
 /* Folder icon section SYstles */
 #folders {
     width:80%;
-    height:800px;
+    height:700px;
     float:left;
     background-color: #FFF;
 }
