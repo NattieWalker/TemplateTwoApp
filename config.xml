@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<widget xmlns   = "http://www.w3.org/ns/widgets"
+    id          = "com.phonegaprrcarch.templatetwoapp"
+    versionCode = "10"
+    version     = "1.0.0" >
+
+<!-- versionCode is optional and Android only -->
+
+  <name>File Manager</name>
+
+  <description>
+      An application that will allow the employees of Ruhnau Ruhnau CLarke to explore files and preview documents. 
+  </description>
+
+  <author href="https://github.com/NattieWalker/TemplateTwoApp.git" email="nwalker@rrcarch.com">
+     Natalie Walker
+  </author>
+
+  <content src="index2.html"></content>
+  <preference name="Fullscreen" value="true" />
+<platform name="ios" />
+<platform name="android" />
+</widget>
