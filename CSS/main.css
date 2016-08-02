@@ -26,7 +26,7 @@ nav {
 }
 /*h1... Styles (All Headers)*/
 h1 {
-	text-align: center;
+	text-align: left;
 	padding: 10px;
     color: #FFF;
     font-family: Roboto Mono, Arial, Verdana, Helvetica,sans-serif;
