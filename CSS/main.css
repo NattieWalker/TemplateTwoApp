@@ -2,6 +2,7 @@
 #main {
 	margin: auto;
 	width: 90%;
+    height:auto;
     font-family: Roboto Mono, Arial, Verdana, Helvetica,sans-serif;
     border: 1px solid black;
     background-color: #414141;
@@ -87,15 +88,16 @@ h3 {
 /* main Div */
 #file-tree { 
     width:20%;
-    height:900px;
     float: left;
-    background-color: #004364;;
+    background-color: #004364;
+    background-size: 100%;
     }
 
 /*div containing lists */
 .folder-list {
     margin:auto;
     width: 90%;
+    height:800px;
     list-style: square inside;
     font-size: 15px;
     
@@ -142,7 +144,7 @@ ol a {
 /* Folder icon section SYstles */
 #folders {
     width:80%;
-    height:900px;
+    height:800px;
     float:left;
     background-color: #FFF;
 }
@@ -181,9 +183,10 @@ img {
 footer {
     text-align:center;
     color:#FFF;
-    background-color:#414141;
+    background-color:#414141
+    width:100%;
     font-family: Roboto Mono, Arial, Verdana, Helvetica,sans-serif;  
-     font-size: 15px;
+    font-size: 1vw;
 }
 
 footer span {
