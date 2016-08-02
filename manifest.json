@@ -1,0 +1,9 @@
+{
+  "short_name": "RRC File App",
+  "name": "RRC File Management Application",
+  
+  "start_url": "index2.html",
+  "display": "fullscreen",
+  "orientation": "landscape",
+  "scope": "TemplateTwoApp"
+}
