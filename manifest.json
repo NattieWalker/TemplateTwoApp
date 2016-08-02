@@ -1,7 +1,12 @@
 {
   "short_name": "RRC File App",
   "name": "RRC File Management Application",
-  
+   "icons": 
+    {
+      "src": "/images/App-icon.png",
+      "sizes": "96x96",
+      "type": "image/png"
+      },   
   "start_url": "index2.html",
   "display": "fullscreen",
   "orientation": "landscape",
