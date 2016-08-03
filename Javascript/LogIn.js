@@ -1,6 +1,6 @@
 
-
-
+//my code below. Only alert message worked
+/*
 function checkPassword(){
 if(x == 2016) {
    //load index2.html
@@ -20,3 +20,4 @@ else {
 var x = document.getElementById('password').value;
 var elSubmit = document.getElementById('submit');
     elSubmit.addEventListener('onCLick', checkPassword, false);
+*/
