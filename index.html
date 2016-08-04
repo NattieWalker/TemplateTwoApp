@@ -4,6 +4,7 @@
 	<title>Template for Application</title>
 	<link rel="stylesheet" href="CSS/Reset.css">
 <link rel="stylesheet" type="text/css" href="CSS/main.css" />
+<link rel="stylesheet" type="text/css" href="CSS/logIn.css" />
 <link href='https://fonts.googleapis.com/css?family=Roboto+Mono:500,700,700italic,500italic' rel='stylesheet' type='text/css'>
 </head>
 <body>
@@ -78,61 +79,17 @@
 </div>
 <section>
 <div id ="folders">
-    <h3> Reccent Files</h3>
+    <h3> Please Log In</h3>
     <div class = "folder-col">
-    <a href = "HTML/openFile.html" class = "folder-icon"><img class = "filtered" src ="images/word-thumb.png"></a>
-            <span class="caption">
-                <p>File Name.doc</p>
-            </span>
-     <a href = "HTML/openFile.html"  class= "folder-icon"><img class = "filtered" src ="images/word-thumb.png"></a>
-            <span class="caption">
-                <p>File Name.doc</p>
-            </span>
-     <a href = "HTML/openFile.html" class= "folder-icon"><img class = "filtered" src ="images/pdf-thumb.jpg"></a>
-             <span class="caption">
-                <p>File Name.pdf</p>
-            </span>
-     <a href = "HTML/exampleFile.html" class= "folder-icon"><img class = "filtered" src ="images/folder-icon.png"></a>
-             <span class="caption">
-                <p>Folder Name</p>
-            </span>
-    </a>
-    </div>
-    <div class = "folder-col" id = "id_search_list"></a>
-    <a href = "HTML/openFile.html" class = "folder-icon"><img class = "filtered" src ="images/pdf-thumb.jpg""></a>
-            <span class="caption">
-                <p>File Name.pdf</p>
-            </span>
-    <a href = "HTML/exampleFile.html" class= "folder-icon"><img class = "filtered" src ="images/folder-icon.png"></a>
-            <span class="caption">
-                <p>Folder Name</p>
-            </span>
-    <a href = "HTML/openFile.html" class= "folder-icon"><img class = "filtered" src ="images/excel-thumb.png"></a>
-             <span class="caption">
-                <p>File Name.xls</p>
-            </span>
-     <a href = "HTML/exampleFile.html" class= "folder-icon"><img class = "filtered" src ="images/folder-icon.png"></a>
-             <span class="caption">
-                <p>Folder Name</p>
-            </span>
-    </div>
-    <div class = "folder-col"></a>
-    <a href = "HTML/oexampleile.html" class = "folder-icon"><img class = "filtered" src ="images/folder-icon.png"></a>
-            <span class="caption">
-                <p>Folder Name</p>
-            </span>
-    <a href = "HTML/openFile.html" class= "folder-icon"><img class = "filtered" src ="images/word-thumb.png"></a>
-            <span class="caption">
-                <p>File Name.doc</p>
-            </span>
-     <a href = "HTML/openFile.html" class= "folder-icon"><img class = "filtered" src ="images/excel-thumb.png"></a>
-            <span class="caption">
-                <p>File Name.xls</p>
-            </span>
-     <a href = "HTML/openFile.html" class= "folder-icon"><img class = "filtered" src ="images/word-thumb.png"></a>
-            <span class="caption">
-                <p>File Name.doc</p>
-    
+    <section class="loginform">
+     <form name="login" action="index_submit" method="get" accept-charset="utf-8">
+        <label for="username">Username</label>
+        <input type="text" name="username" placeholder="User Name" required>
+        <label for="password">Password</label>
+        <input type="password" name="password" placeholder="password" required>
+        <input type="submit" value="Login">
+    </form>
+</section>
 </div>
 </section>
 <footer>
