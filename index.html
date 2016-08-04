@@ -9,14 +9,14 @@
 </head>
 <body>
 <div id="main">
-   <header>
+<header>
  <nav> 
      <button class = "back-btn" onclick="goBack()">Go Back</button>
      <div class ="search-tools">
 
 
    <form id="filter_form" class = "search">
-    <input id="filter" name="filter" type="text" size="40" onkeyup="filter_pictures();"></input>
+    <input id="filter" name="filter" type="text" size="40" onkeyup="filter_pictures();">
     </form>
 
 
@@ -29,47 +29,47 @@
     <div class = "folder-list">
     <h2>Job Number</h2>
     <ol>
-        <li class = "main-folder"><a href = "HTML/folderList.html" alt ="first file">1-20-45</a></li>
+        <li class = "main-folder"><a href = "HTML/folderList.html">1-20-45</a></li>
             <ul class= "nested-list">
                 <li><a href= "HTML/openFile.html">Test File</a></li>
             </ul>
             
-        <li class = "main-folder"><a href = "HTML/folderList.html" alt ="first file">1-20-45</a></li>
+        <li class = "main-folder"><a href = "HTML/folderList.html" >1-20-45</a></li>
             <ul class= "nested-list">
                 <li><a href= "HTML/openFile.html">Test File</a></li>
             </ul>
-            <li class = "main-folder"><a href = "HTML/folderList.html" alt ="first file">1-20-45</a></li>
+            <li class = "main-folder"><a href = "HTML/folderList.html">1-20-45</a></li>
             <ul class= "nested-list">
                 <li><a href= "HTML/openFile.html">Test File</a></li>
             </ul>
-            <li class = "main-folder"><a href = "HTML/folderList.html" alt ="first file">1-20-45</a></li>
+            <li class = "main-folder"><a href = "HTML/folderList.html">1-20-45</a></li>
             <ul class= "nested-list">
                 <li><a href= "HTML/openFile.html">Test File</a></li>
             </ul>
-        <li class = "main-folder"><a href = "HTML/folderList.html" alt ="first file">1-20-45</a></li>
-            <ul class= "nested-list">
-                <li><a href= "HTML/openFile.html">Test File</a></li>
-            </ul>
-        <li class = "main-folder"><a href = "HTML/folderList.html" alt ="first file">1-20-45</a></li>
+        <li class = "main-folder"><a href = "HTML/folderList.html" >1-20-45</a></li>
             <ul class= "nested-list">
                 <li><a href= "HTML/openFile.html">Test File</a></li>
             </ul>
         <li class = "main-folder"><a href = "HTML/folderList.html" alt ="first file">1-20-45</a></li>
+            <ul class= "nested-list">
+                <li><a href= "HTML/openFile.html">Test File</a></li>
+            </ul>
+        <li class = "main-folder"><a href = "HTML/folderList.html">1-20-45</a></li>
             <ul class= "nested-list">
                 <li><a href= "HTML/openFile.html">Test File</a></li>
             </ul>
 
 
 
-             <li class = "main-folder"><a href = "HTML/folderList.html" alt ="first file">1-20-45</a></li>
+             <li class = "main-folder"><a href = "HTML/folderList.html" >1-20-45</a></li>
             <ul class= "nested-list">
                 <li><a href= "HTML/openFile.html">Test File</a></li>
             </ul>
-             <li class = "main-folder"><a href = "HTML/folderList.html" alt ="first file">1-20-45</a></li>
+             <li class = "main-folder"><a href = "HTML/folderList.html">1-20-45</a></li>
             <ul class= "nested-list">
                 <li><a href= "HTML/openFile.html">Test File</a></li>
             </ul>
-             <li class = "main-folder"><a href = "HTML/folderList.html" alt ="first file">1-20-45</a></li>
+             <li class = "main-folder"><a href = "HTML/folderList.html">1-20-45</a></li>
             <ul class= "nested-list">
                 <li><a href= "HTML/openFile.html">Test File</a></li>
             </ul>
@@ -83,11 +83,9 @@
     <div class = "folder-col">
     <section class="loginform">
      <form name="login" action="index_submit" method="get" accept-charset="utf-8">
-        <label for="username">Username</label>
-        <input type="text" name="username" placeholder="User Name" required>
         <label for="password">Password</label>
-        <input type="password" name="password" placeholder="password" required>
-        <input type="submit" value="Login">
+        <input type="password" name="password" placeholder="password" id ="password" required>
+        <input type="submit" value="Login" id ="submit">
     </form>
 </section>
 </div>
@@ -98,4 +96,5 @@
 </div>
 <script src="Javascript/Main.js"></script>
 <script src="Javascript/Search.js"></script>
+<script src="Javascript/logIn.js"></script>
 </html>
