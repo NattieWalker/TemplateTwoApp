@@ -13,7 +13,7 @@ nav {
 	margin: auto;
 	text-align:center;
     background-color:#414141;
-    padding: 10px;
+    padding: 10px 10px 20px 10px;
     } 
 
 .back-btn {
@@ -22,7 +22,7 @@ nav {
     background-color: #444;
     border: 1px solid #919191;
     border-radius: 10px;
-    padding: 5px;
+    padding: 10px;
     margin: 10px;
 }
 /*h1... Styles (All Headers)*/
@@ -175,7 +175,7 @@ img {
     color:#979797;
     text-align:center;
     margin:3px;
-    font-size:1.5vw;
+    font-size:1vw;
 
 }
 
@@ -187,6 +187,11 @@ footer {
     width:100%;
     font-family: Roboto Mono, Arial, Verdana, Helvetica,sans-serif;  
     font-size: 1vw;
+    position:fixed;
+    left: 0px;
+    bottom:0px;
+    width:100%;
+
 }
 
 footer span {

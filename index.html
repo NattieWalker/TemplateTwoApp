@@ -2,10 +2,10 @@
 <html>
 <head>
 	<title>Template for Application</title>
-	<link rel="stylesheet" href="CSS/Reset.css">
-<link rel="stylesheet" type="text/css" href="CSS/main.css" />
-<link rel="stylesheet" type="text/css" href="CSS/logIn.css" />
-<link href='https://fonts.googleapis.com/css?family=Roboto+Mono:500,700,700italic,500italic' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" type = "text/css" href="CSS/Reset.css">
+    <link rel="stylesheet" type="text/css" href="CSS/main.css" />
+    <link rel="stylesheet" type="text/css" href="CSS/logIn.css" />
+    <link href='https://fonts.googleapis.com/css?family=Roboto+Mono:500,700,700italic,500italic' rel='stylesheet' type='text/css'>
 </head>
 <body>
 <div id="main">
@@ -78,16 +78,16 @@
 </div>
 </div>
 <section>
-<div id ="folders">
+<div id = "folders">
     <h3> Please Log In</h3>
     <div class = "folder-col">
-    <section class="loginform">
-     <form name="login" action="index_submit" method="get" accept-charset="utf-8">
-        <label for="password">Password</label>
-        <input type="password" name="password" placeholder="password" id ="password" required>
-        <input type="submit" value="Login" id ="submit">
+    <form id="form_id" method="post" name="myform">
+        <label>User Name :</label>
+        <input type="text" name="username" id="username"/>
+        <label>Password :</label>
+        <input type="password" name="password" id="password"/>
+        <input type="button" value="Login" id="submit" onclick="validate()"/>
     </form>
-</section>
 </div>
 </section>
 <footer>
