@@ -91,6 +91,10 @@ h3 {
     float: left;
     background-color: #004364;
     background-size: 100%;
+    display: flex;
+    flex-direction:column;
+    flex-grow: 1;
+}
     }
 
 /*div containing lists */
@@ -113,8 +117,6 @@ h3 {
 
 
 /* Set folder diplay */
-
-
 
 /*Sub List */
 ul {
@@ -152,7 +154,7 @@ ol a {
     float:left;
     width: 30%;
     margin: 5px;
-    height: auto;
+
 }
 .folder-icon {
     border: 1px dotted #979797;
