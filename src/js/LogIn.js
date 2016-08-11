@@ -28,7 +28,7 @@ function validate(){
 var username = document.getElementById("username").value;
 var password = document.getElementById("password").value;
 if ( username == "RRC" && password == "RRC2016"){
-window.location = "HTML/index2.html"; // Redirecting to other page.
+window.location = "src/HTML/index2.html"; // Redirecting to other page.
 return false;
 }
 else{

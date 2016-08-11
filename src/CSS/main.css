@@ -91,9 +91,9 @@ h3 {
     float: left;
     background-color: #004364;
     background-size: 100%;
-    display: flex;
+    /*display: flex;
     flex-direction:column;
-    flex-grow: 1;
+    flex-grow: 1; */
 }
   
 
