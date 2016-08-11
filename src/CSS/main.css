@@ -163,7 +163,7 @@ ol a {
     flex: 1;
 }
 
-/* Img = FOlder Icon Styles */ 
+/* Img = Folder Icon Styles */ 
 img {
     position:center;
     max-width:100%; 
@@ -180,7 +180,16 @@ img {
     font-size:1vw;
 
 }
+/* Add file button */
+#files {
+    background-color:#FFF;
+    padding: 10px;
+    margin: 10px;
+}
 
+.files {
+    background-color:#FFF;
+}
 /*Footer Styles */
 footer {
     text-align:center;
