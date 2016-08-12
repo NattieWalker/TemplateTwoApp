@@ -7,7 +7,7 @@
       "sizes": "96x96",
       "type": "image/png"
       },   
-  "start_url": "index2.html",
+  "start_url": "index.html",
   "display": "fullscreen",
   "orientation": "landscape",
   "scope": "TemplateTwoApp"
