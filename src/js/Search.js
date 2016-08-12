@@ -8,8 +8,9 @@ function filter_pictures() {
     var $imgsCollection = document.getElementsByClassName('filtered');
 	
 	//Get Image caption
+	var $imageCaption = document.getElementsByClassName('caption');
 	/*if($imgsCollection.childNode){
-		var $children = $imgsCollection.childNode;
+		var $children = $imgsCollection.childNode.style.display = 'none';
 	}*/
 
     //For every image check if url has filter in it and hide/show as needed.
