@@ -24,9 +24,9 @@ nav {
 
 .back-btn {
     float:right;
-    color: #919191;
+    color: #FFF;
     background-color: #444;
-    border: 1px solid #919191;
+    border: 1px solid #FFF;
     border-radius: 10px;
     padding: 10px;
     margin: 10px;
@@ -65,8 +65,8 @@ h3 {
 /*Search Bar */
 
 .search input[type="text"] {
-    background: url(search-dark.png) no-repeat 10px 6px #444;
-    border: 1px solid #919191;
+    background-color:#414141;
+    border: 1px solid #FFF;
     float: right;
     margin: 10px;
     font: bold 12px Roboto Mono, Arial,Helvetica,Sans-serif;
