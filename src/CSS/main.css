@@ -109,12 +109,13 @@ h3 {
     width: 90%;
     height:700px;
     list-style: square inside;
-    font-size: 15px;
+    font-size: 2vw;
     
 }
 .nested-list {
     color: #979797;
     text-indent: 20px;
+    font-size: 1.2vw;
 }
 
 .main-folder {
